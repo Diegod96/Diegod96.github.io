@@ -1,169 +1,211 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Diego's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Diego's Portfolio</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Welcome to My Portfolio</h1>
-						<p>A showcase of my projects and my abilities</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <!-- Intro -->
+    <div id="intro">
+        <h1>Welcome to My Portfolio</h1>
+        <p>A showcase of my projects and my abilities</p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
 
 
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/diego-delgado-759711137/" class="icon brands fa-linkedin"
+                   target="_blank"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/Diegod96" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a>
+            </li>
+        </ul>
+    </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/diego-delgado-759711137/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Diegod96" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <!-- Main -->
+    <div id="main">
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Featured Post -->
+        <article class="post featured">
+            <header class="major">
+                <h2>My Name is Diego Delgado</h2>
+                <p>I am an enthusiastic developer eager to contribute to team success through hard work, attention to
+                    detail and excellent organizational skills.</p>
+                <p><a href="Diego's%20Resume.pdf" target="_blank">Click here to view my resume.</a></p>
+            </header>
+            <h2><a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank">Covid-19 Dashboard</a></h2>
+            <a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank" class="image main"><img
+                    src="images/markus-spiske-3_SvgDspSTE-unsplash.jpg" alt=""/></a>
+            <p>A Covid-19 Web Dashboard that contains multiple web applications to help communicate and prevent the
+                spread of the virus.
+                Built using React, Svelte, and Flask. Styled using Bootstrap, Material-UI, and Bulma. Deployed using
+                AWS, Heroku, and Netlify.</p>
+            <ul class="actions special">
+                <li><a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank" class="button large">See It
+                    In Action</a></li>
+                <li><a href="https://github.com/Diegod96/coronavirus-js" target="_blank" class="button large">Check Out
+                    How It Was Built</a></li>
+            </ul>
+        </article>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>My Name is Diego Delgado</h2>
-									<p>I am an enthusiastic developer eager to contribute to team success through hard work, attention to detail and excellent organizational skills.</p>
-									<p><a href="Diego's%20Resume.pdf" target="_blank">Click here to view my resume.</a></p>
-								</header>
-								<h2><a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank">Covid-19 Dashboard</a></h2>
-								<a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank" class="image main"><img src="images/markus-spiske-3_SvgDspSTE-unsplash.jpg" alt="" /></a>
-								<p>A Covid-19 Web Dashboard that contains multiple web applications to help communicate and prevent the spread of the virus.
-									Built using React, Svelte, and Flask. Styled using Bootstrap, Material-UI, and Bulma. Deployed using AWS, Heroku, and Netlify.</p>
-								<ul class="actions special">
-									<li><a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank" class="button large">See It In Action</a></li>
-									<li><a href="https://github.com/Diegod96/coronavirus-js" target="_blank" class="button large">Check Out How It Was Built</a></li>
-								</ul>
-							</article>
+        <!-- Posts -->
+        <section class="posts">
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Diegod96/Rowing-Team-Management" target="_blank">Team Management Application</a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/Rowing-Team-Management" target="_blank"
+                   class="image fit"><img src="images/rowing.jpg" alt=""/></a>
+                <p>A PWA that allows a user (a coach) to add rowers and their information (name, email, 2k time, etc.) to a list view. The user can then see a pie chart visualization
+                of how the team is composed based on the boat (Varsity 8, JV 4+, etc.) the rowers are in. Currently implementing forgot password functionality along with the ability for new users to make accounts.
+                In the meantime, use "user" and "password" as login credentials to use and view the application. Built using Java Spring Boot / Spring Security and the Vaadin framework.
+                JUnit tests developed to test basic functionality along with an H2 DB & MySql DB were used for local development. Currently deployed on an AWS Elastic Beanstalk environment with an AWS RDS.</p>
+                <ul class="actions special">
+                    <li><a href="http://teammanagementapp-env.eba-fscembpb.us-east-1.elasticbeanstalk.com/login" target="_blank" class="button">See It In
+                        Action</a></li>
+                    <li><a href="https://github.com/Diegod96/Rowing-Team-Management" target="_blank"
+                           class="button">Check Out How It Was Built</a></li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Diegod96/craigslist" target="_blank">Automated Craigslist
+                        Scraper</a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/craigslist" target="_blank" class="image fit"><img
+                        src="images/simone-pellegrini-b7xmLsCPW20-unsplash.jpg" alt=""/></a>
+                <p>This is my Craigslist scraper application. Built using Python and using the Selenium automated
+                    webdriver framework, this script scrapes listings on craigslist based on type of item, location, max
+                    price, etc.
+                    This application is deployed/hosted on the Heroku cloud and runs a scrape every hour. It then sends
+                    myself a timestamped email with a csv file of the listings that were scraped.</p>
+                <ul class="actions special">
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/Diegod96/Social-Distancing-Simulation" target="_blank">Social Distancing Simulation
-										</a></h2>
-									</header>
-									<a href="https://github.com/Diegod96/Social-Distancing-Simulation" target="_blank" class="image fit"><img src="images/ezgif.com-video-to-gif.gif" alt="" /></a>
-									<p>Written in Java and utilizing the Java Swing framework. This program simulates the impact social distancing has when it comes to containing the spread of a virus.
-										The user can edit the percentage of people who practice social distancing, and the amount of people who start out infected. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Diegod96/Social-Distancing-Simulation" target="_blank" class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/Diegod96/craigslist" target="_blank">Automated Craigslist Scraper</a></h2>
-									</header>
-									<a href="https://github.com/Diegod96/craigslist" target="_blank" class="image fit"><img src="images/simone-pellegrini-b7xmLsCPW20-unsplash.jpg" alt="" /></a>
-									<p>This is my Craigslist scraper application. Built using Python and using the Selenium automated webdriver framework, this script scrapes listings on craigslist based on type of item, location, max price, etc.
-										This application is deployed/hosted on the Heroku cloud and runs a scrape every hour. It then sends myself a timestamped email with a csv file of the listings that were scraped.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Diegod96/craigslist" target="_blank" class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/Diegod96/Message-Encryptor" target="_blank">Message Encryptor<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Diegod96/Message-Encryptor" target="_blank" class="image fit"><img src="images/lock.jpg" alt="" /></a>
-									<p>PHP web application that encrypts/decrypts text using the ROT13 cipher and the Vigenere Cipher with accompanying key. Deployed using Heroku.</p>
-									<ul class="actions special">
-										<li><a href="https://encryptionphp.herokuapp.com/" target="_blank" class="button">See It In Action</a></li>
-										<li><a href="https://github.com/Diegod96/Message-Encryptor" target="_blank" class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/Diegod96/Screen-Recorder" target="_blank">Screen Recorder<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Diegod96/Screen-Recorder" target="_blank" class="image fit"><img src="images/kushagra-kevat-cc4VWYA1S8U-unsplash.jpg" alt="" /></a>
-									<p>A screen recorder application written in Electron JS. Can be downloaded as its owns application on the user's computer. Works on Windows, Mac, and Linux.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Diegod96/Screen-Recorder" target="_blank" class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank">Matrix Generator
-										</a></h2>
-									</header>
-									<a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank" class="image fit"><img src="images/MatrixTranspose.gif" alt="" /></a>
-									<p>A matrix generator that generates the matrix based on the user input for # rows and # columns. Also calculates and displays the transpose for the original matrix along with the sum of the matrices. Built using Angular and the CSS3 Bootstrap framework. Deployed/Hosted via AWS.</p>
-									<ul class="actions special">
-										<li><a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank" class="button">See It In Action</a></li>
-										<li><a href="https://github.com/Diegod96/matrix-generator"  target="_blank"class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/Diegod96/GA-shortest-path" target="_blank">Pathfinding Genetic Algorithm</a></h2>
-									</header>
-									<a href="https://github.com/Diegod96/GA-shortest-path" target="_blank" class="image fit"><img src="images/oxana-v-qoAIlAmLJBU-unsplash.jpg" alt="" /></a>
-									<p>Genetic Algorithm that tries to solve the traveling salesmen problem: “Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?”
-									Built using Python.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Diegod96/GA-shortest-path" target="_blank" class="button">Check Out How It Was Built</a></li>
-									</ul>
-								</article>
-							</section>
-					</div>
+                    <li><a href="https://github.com/Diegod96/craigslist" target="_blank" class="button">Check Out How It
+                        Was Built</a></li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Diegod96/Message-Encryptor" target="_blank">Message Encryptor<br/>
+                    </a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/Message-Encryptor" target="_blank" class="image fit"><img
+                        src="images/lock.jpg" alt=""/></a>
+                <p>PHP web application that encrypts/decrypts text using the ROT13 cipher and the Vigenere Cipher with
+                    accompanying key. Deployed using Heroku.</p>
+                <ul class="actions special">
+                    <li><a href="https://encryptionphp.herokuapp.com/" target="_blank" class="button">See It In
+                        Action</a></li>
+                    <li><a href="https://github.com/Diegod96/Message-Encryptor" target="_blank" class="button">Check Out
+                        How It Was Built</a></li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Diegod96/Screen-Recorder" target="_blank">Screen Recorder<br/>
+                    </a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/Screen-Recorder" target="_blank" class="image fit"><img
+                        src="images/kushagra-kevat-cc4VWYA1S8U-unsplash.jpg" alt=""/></a>
+                <p>A screen recorder application written in Electron JS. Can be downloaded as its owns application on
+                    the user's computer. Works on Windows, Mac, and Linux.</p>
+                <ul class="actions special">
+                    <li><a href="https://github.com/Diegod96/Screen-Recorder" target="_blank" class="button">Check Out
+                        How It Was Built</a></li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank">Matrix Generator
+                    </a></h2>
+                </header>
+                <a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank" class="image fit"><img
+                        src="images/MatrixTranspose.gif" alt=""/></a>
+                <p>A matrix generator that generates the matrix based on the user input for # rows and # columns. Also
+                    calculates and displays the transpose for the original matrix along with the sum of the matrices.
+                    Built using Angular and the CSS3 Bootstrap framework. Deployed via AWS Amplify.</p>
+                <ul class="actions special">
+                    <li><a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank" class="button">See It In
+                        Action</a></li>
+                    <li><a href="https://github.com/Diegod96/matrix-generator" target="_blank" class="button">Check Out
+                        How It Was Built</a></li>
+                </ul>
+            </article>
+            <article>
+                <header>
+                    <h2><a href="https://github.com/Diegod96/GA-shortest-path" target="_blank">Pathfinding Genetic
+                        Algorithm</a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/GA-shortest-path" target="_blank" class="image fit"><img
+                        src="images/oxana-v-qoAIlAmLJBU-unsplash.jpg" alt=""/></a>
+                <p>Genetic Algorithm that tries to solve the traveling salesmen problem: “Given a list of cities and the
+                    distances between each pair of cities, what is the shortest possible route that visits each city and
+                    returns to the origin city?”
+                    Built using Python.</p>
+                <ul class="actions special">
+                    <li><a href="https://github.com/Diegod96/GA-shortest-path" target="_blank" class="button">Check Out
+                        How It Was Built</a></li>
+                </ul>
+            </article>
+        </section>
+    </div>
 
-				<!-- Footer -->
-					<footer id="footer">
+    <!-- Footer -->
+    <footer id="footer">
 
-						<section class="split contact">
+        <section class="split contact">
 
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">diego.delgado@comcast.net</a></p>
-							</section>
-							<section>
-								<h3>Resume</h3>
-								<p><a href="Diego's%20Resume.pdf" target="_blank">View Resume</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/diego-delgado-759711137/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Diegod96" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+            <section>
+                <h3>Email</h3>
+                <p><a href="#">diego.delgado@comcast.net</a></p>
+            </section>
+            <section>
+                <h3>Resume</h3>
+                <p><a href="Diego's%20Resume.pdf" target="_blank">View Resume</a></p>
+            </section>
+            <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="https://www.linkedin.com/in/diego-delgado-759711137/"
+                           class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/Diegod96" class="icon brands fa-github"><span
+                            class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
 
-				<!-- Copyright -->
-					<div>
-						<ul><li></li></ul>
-					</div>
+    <!-- Copyright -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
 
-			</div>
+</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
 </html>
