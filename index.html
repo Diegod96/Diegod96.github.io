@@ -49,20 +49,16 @@
             <header>
                 <h2><a href="https://github.com/Diegod96/GA-shortest-path" target="_blank">Live Twitter Dashboard</a></h2>
             </header>
-            <a href="https://diego-twitter-dashboard.herokuapp.com/" target="_blank" class="image fit"><img
+            <a href="https://diego-twitter-application.herokuapp.com/" target="_blank" class="image fit"><img
                     src="images/visuals-2TS23o0-pUc-unsplash.jpg" alt=""/></a>
-            <p> This application utilizes the tweepy twitter API to stream twitter data (i.e. timestamp, tweet, etc.) to an ETL pipeline.
-                This pipeline processes the tweet gives the tweet a sentiment score (-1 to 1, where -1 is max-negative and 1 is max-positive), and then stores the tweet in a database.
-                the frontend part of the application queries from that database and displays the sentiment of the most recent tweets in real-time.
-                The user can search for a term and view that term's live sentiment.
-            </p>
-            <h2>FEATURE CURRENTLY UNDER CONSRTUCTION:</h2>
-              <p>I am working on implementing Apache Spark and AWS Kinesis Firehose to be able to gather, transform, and load data more efficently.</p> 
+            <p> This application is a twitter sentiemnt dashbaord. The user can view the live sentiment of twitter along with twitter's sentiment over the current week. 
+                The user can also see the live/historic sentiment for a specififc topic or term (i.e. covid, nba, etc.). The live portion utilizse SQLite for quick index retrievals 
+                while the historic pie chart utilizes Apache Spark/Pyspark, AWS Kinesis Firehose, AWS S3, and MySQL to handle the ETL pipeline for large amounts
+                of data. The piechart is updated every thirty minutes after the completeion of a Databricks notebook job.
+            </p> 
             <ul class="actions special">
-                <li><a href="https://github.com/Diegod96/Twitter-Dashboard" target="_blank" class="button">Check Out
-                    How It Was Built</a></li>
-                <li><a href="https://diego-twitter-dashboard.herokuapp.com/" target="_blank" class="button">See It In Action</a></li>
-                <li><a href="https://github.com/Diegod96/Spark-Project" target="_blank" class="button">Check Out The Progress On The Apache Spark Build</a></li>
+                <li><a href="https://diego-twitter-application.herokuapp.com/" target="_blank" class="button">See It In Action</a></li>
+                <li><a href="https://github.com/Diegod96/Spark-Project" target="_blank" class="button">Check Out How It Was Built</a></li>
             </ul>
 
         </article>
