@@ -52,9 +52,9 @@
             <a href="https://diego-twitter-application.herokuapp.com/" target="_blank" class="image fit"><img
                     src="images/visuals-2TS23o0-pUc-unsplash.jpg" alt=""/></a>
             <p> This application is a twitter sentiemnt dashbaord. The user can view the live sentiment of twitter along with twitter's sentiment over the current week. 
-                The user can also see the live/historic sentiment for a specififc topic or term (i.e. covid, nba, etc.). The live portion utilizse SQLite for quick index retrievals 
-                while the historic pie chart utilizes Apache Spark/Pyspark, AWS Kinesis Firehose, AWS S3, and MySQL to handle the ETL pipeline for large amounts
-                of data. The piechart is updated every thirty minutes after the completeion of a Databricks notebook job.
+                The user can also see the live/historic sentiment for a specififc topic or term (i.e. covid, nba, etc.). There is also a piechart and bar graph displaying the
+                the total sentiment of twitter throughout the current week and the top 10 trending hashtags. This application was built using Python, the tweepy API, AWS S3, AWS SQS/SNS,
+                Apache Spark, Databricks, and the Dash - Plotly Python library.
             </p> 
             <ul class="actions special">
                 <li><a href="https://diego-twitter-application.herokuapp.com/" target="_blank" class="button">See It In Action</a></li>
@@ -84,6 +84,23 @@
             </article>
             <article>
                 <header>
+                    <h2><a href="https://github.com/Diegod96/craigslist" target="_blank">Fake News Detector</a></h2>
+                </header>
+                <a href="https://github.com/Diegod96/craigslist" target="_blank" class="image fit"><img
+                        src="images/absolutvision-WYd_PkCa1BY-unsplash.jpg" alt=""/></a>
+                <p>This is a fake news detector application utilizing three machine learning models: Logistic Regression, Multinominal Naive Bayes, and SGD Classification. 
+                   These three models are trained using <a href="https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset" target="blank">this dataset of real and fake news</a>. 
+                   Once the authenticity of the article has been determined, it is displayed to the user via a Flask frontend.
+                </p>
+                <ul class="actions special">
+                    <li><a href="https://diego-fake-news.herokuapp.com/" target="_blank" class="button">See It In
+                        Action</a></li>
+                    <li><a href="https://github.com/Diegod96/craigslist" target="_blank" class="button">Check Out How It
+                        Was Built</a></li>
+                </ul>
+            </article>
+            <!-- <article>
+                <header>
                     <h2><a href="https://github.com/Diegod96/craigslist" target="_blank">Automated Craigslist
                         Scraper</a></h2>
                 </header>
@@ -100,7 +117,7 @@
                     <li><a href="https://github.com/Diegod96/craigslist" target="_blank" class="button">Check Out How It
                         Was Built</a></li>
                 </ul>
-            </article>
+            </article> -->
             <article>
                 <h2><a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank">Covid-19 Dashboard</a></h2>
             <a href="https://master.d30wuvfk5j97tx.amplifyapp.com/" target="_blank" class="image main"><img
@@ -116,7 +133,7 @@
                     How It Was Built</a></li>
             </ul>
             </article>
-            <article>
+            <!-- <article>
                 <header>
                     <h2><a href="https://github.com/Diegod96/AWS-Reddit-Application" target="_blank">AWS Reddit Analyzer<br/>
                     </a></h2>
@@ -133,8 +150,8 @@
                         Action</a></li>
                     <li><a href="https://github.com/Diegod96/AWS-Reddit-Application" target="_blank" class="button">Check Out How It Was Built</a></li>
                 </ul>
-            </article>
-            <article>
+            </article> -->
+            <!-- <article>
                 <header>
                     <h2><a href="https://master.d2b9pr30g5do57.amplifyapp.com/" target="_blank">Matrix Generator
                     </a></h2>
@@ -150,7 +167,7 @@
                     <li><a href="https://github.com/Diegod96/matrix-generator" target="_blank" class="button">Check Out
                         How It Was Built</a></li>
                 </ul>
-            </article>
+            </article> -->
             <article>
                <header>
                     <h2><a href="https://github.com/Diegod96/Message-Encryptor" target="_blank">Message Encryptor<br/>
